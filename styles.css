@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(192, 128, 173);
+}
+
+.container {
+    width:350px ;
+    margin: 50px auto;
+    background-color: brown;
+    padding: 20px;
+    border-radius:10px ;
+    box-shadow:-15px 0px 10px   ;
+
+}
+
+input {
+    width: 100%;
+    margin-bottom: 17px;
+    padding: 8px;
+    box-sizing: border-box;
+
+
+}
+
+button {
+    width: 100%;
+    background-color: blanchedalmond;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: coral;
+    color: azure;
+}

@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.container {
+    background-color: azure;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow:-15px 4px 15px #4a9274 ;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1,h2 {
+    color:blue;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+input {
+    width: 100%;
+    padding: 10px ;
+    margin-bottom:20px ;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: darkgoldenrod;
+    color: darkslateblue;
+    border: none;
+    padding:12px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+
+
+}
+
+button:hover {
+    background-color: azure;
+}
+
+/* Estilo para a tabela*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border-bottom: 1px solid #1d0d0d;
+    padding: 12px;
+    text-align: left;
+}
+
+th { background-color: aqua;
+    color: rgb(19, 17, 15);
+
+
+}
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: brown;
+    font-weight: bold;
+
+}
+.btn-excluir {
+    background-color: aliceblue;
+    color: black;
+    padding: 5px 10 px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+
+.btn-excluir:hover {
+    background-color: cadetblue;
+
+}
+
+
+
+
